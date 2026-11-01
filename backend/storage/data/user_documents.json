@@ -1,0 +1,22 @@
+[
+  {
+    "id": "b841e284-deab-4b0d-9f16-514c0bcafde6",
+    "templateId": "doc-02-don-xin-nghi-phep",
+    "title": "Bản sao - Đơn xin nghỉ phép năm",
+    "category": "Nhân sự",
+    "contentHtml": "\n<div style=\"font-family: 'Times New Roman', serif; line-height: 1.6; max-width: 750px; margin: 0 auto; color: #111;\">\n  <div style=\"text-align: center; margin-bottom: 20px;\">\n    <h3 style=\"margin: 0; font-size: 13pt; font-weight: bold; text-transform: uppercase;\">CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</h3>\n    <p style=\"margin: 4px 0 0; font-size: 12pt; font-weight: bold;\">Độc lập - Tự do - Hạnh phúc</p>\n    <div style=\"width: 140px; height: 1px; background: #000; margin: 6px auto 16px;\"></div>\n    <h2 style=\"margin: 16px 0 4px; font-size: 16pt; font-weight: bold; text-transform: uppercase; color: #1e3a8a;\">ĐƠN XIN NGHỈ PHÉP NĂM</h2>\n  </div>\n\n  <p>Kính gửi: Ban Giám đốc &amp; Trưởng phòng Kỹ thuật</p>\n\n  <p>Tôi tên là: <strong>Nguyễn Hoàng Long</strong></p>\n  <p>Mã nhân viên: <strong>EMP-2024-88</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chức vụ: <strong>Chuyên viên Phát triển Frontend</strong></p>\n  <p>Bộ phận công tác: Khối Công nghệ Thông tin</p>\n\n  <p>Nay tôi làm đơn này kính xin phép được nghỉ làm việc:</p>\n  <ul>\n    <li>Số ngày xin nghỉ: <strong>03 ngày</strong></li>\n    <li>Thời gian nghỉ: <strong>Từ ngày 10/11/2025 đến hết ngày 12/11/2025</strong></li>\n    <li>Lý do: Giải quyết việc cá nhân gia đình tại quê</li>\n  </ul>\n\n  <p><strong>Phương án bàn giao và đảm bảo công việc:</strong></p>\n  <p>Trong thời gian tôi nghỉ phép, toàn bộ công việc và nhiệm vụ trực sprint đã được bàn giao chi tiết cho đồng nghiệp: <strong>Phạm Minh Tuấn (Senior Dev)</strong>. Tôi cam kết giữ liên lạc qua điện thoại trong trường hợp khẩn cấp.</p>\n\n  <p>Kính mong Ban Giám đốc và Trưởng bộ phận xem xét phê duyệt.</p>\n\n  <table style=\"width: 100%; margin-top: 36px; text-align: center;\">\n    <tbody><tr>\n      <td style=\"width: 33%;\">\n        <strong>TRƯỞNG BỘ PHẬN</strong><br>\n        <em>(Ký &amp; duyệt)</em><br><br><br><br>\n      </td>\n      <td style=\"width: 33%;\">\n        <strong>NGƯỜI NHẬN BÀN GIAO</strong><br>\n        <em>(Xác nhận nhận việc)</em><br><br><br><br>\n        <em>Phạm Minh Tuấn (Senior Dev)</em>\n      </td>\n      <td style=\"width: 34%;\">\n        <strong>NGƯỜI LÀM ĐƠN</strong><br>\n        <em>(Ký và ghi rõ họ tên)</em><br><br><br><br>\n        <strong>Nguyễn Hoàng Long</strong>\n      </td>\n    </tr>\n  </tbody></table>\n</div>\n    ",
+    "fieldValues": {
+      "kinh_gui": "Ban Giám đốc & Trưởng phòng Kỹ thuật",
+      "ho_ten": "Nguyễn Hoàng Long",
+      "ma_nhan_vien": "EMP-2024-88",
+      "chuc_vu": "Chuyên viên Phát triển Frontend",
+      "so_ngay_nghi": "03 ngày",
+      "thoi_gian_nghi": "Từ ngày 10/11/2025 đến hết ngày 12/11/2025",
+      "ly_do_nghi": "Giải quyết việc cá nhân gia đình tại quê",
+      "nguoi_ban_giao": "Phạm Minh Tuấn (Senior Dev)"
+    },
+    "status": "draft",
+    "createdAt": "2026-11-01T06:26:32.105Z",
+    "updatedAt": "2026-11-01T06:27:10.967Z"
+  }
+]

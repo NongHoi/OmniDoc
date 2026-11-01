@@ -1,0 +1,28 @@
+{
+  "name": "omnidoc-office-template-suite",
+  "version": "1.0.0",
+  "description": "Thư viện Mẫu Tài liệu Văn phòng (Văn bản & Trình chiếu) - OmniDoc Office Studio",
+  "scripts": {
+    "dev": "concurrently -n \"API,WEB\" -c \"blue,green\" \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build",
+    "test": "npm --prefix backend run test",
+    "install:all": "npm install && npm --prefix backend install && npm --prefix frontend install"
+  },
+  "keywords": [
+    "office",
+    "template-library",
+    "docx",
+    "pptx",
+    "word",
+    "powerpoint",
+    "react",
+    "express"
+  ],
+  "author": "Nông Vay Hội <nonghoi2004@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

@@ -1,0 +1,590 @@
+[
+  {
+    "id": "pres-01-startup-pitch-deck",
+    "title": "Startup Pitch Deck - Gọi vốn nhà đầu tư",
+    "category": "Khởi nghiệp",
+    "description": "Bộ slide thuyết trình chuẩn quốc tế 5 slide dành cho startup gọi vốn vòng hạt giống (Seed / Series A), tối ưu hóa cấu trúc Problem-Solution-Market-Traction-Financials.",
+    "thumbnailUrl": "/thumbnails/pres-pitch-deck.svg",
+    "filePath": "templates/presentations/startup-pitch-deck.pptx",
+    "fileFormat": "pptx",
+    "tags": [
+      "Pitch Deck",
+      "Khởi nghiệp",
+      "Gọi vốn",
+      "Nhà đầu tư",
+      "Chiến lược"
+    ],
+    "slidesCount": 5,
+    "theme": {
+      "name": "Venture Indigo",
+      "primaryColor": "#2563eb",
+      "secondaryColor": "#1e40af",
+      "accentColor": "#f59e0b",
+      "backgroundColor": "#ffffff",
+      "textColor": "#0f172a",
+      "fontHeading": "Plus Jakarta Sans",
+      "fontBody": "Plus Jakarta Sans"
+    },
+    "slides": [
+      {
+        "id": "slide-101",
+        "slideNumber": 1,
+        "title": "NỀN TẢNG THƯ VIỆN SỐ OMNIDOC",
+        "subtitle": "Giải pháp tự động hóa tài liệu & trình chiếu thế hệ mới cho doanh nghiệp hiện đại",
+        "layout": "title",
+        "elements": [
+          {
+            "id": "el-1",
+            "type": "heading",
+            "content": "NỀN TẢNG THƯ VIỆN SỐ OMNIDOC"
+          },
+          {
+            "id": "el-2",
+            "type": "subtitle",
+            "content": "Thuyết trình Gọi vốn Đầu tư Vòng Hạt Giống (Seed Round - $500,000)"
+          },
+          {
+            "id": "el-3",
+            "type": "paragraph",
+            "content": "Diễn giả: Nguyễn Văn An - Sáng lập viên & CEO | Tháng 11/2025"
+          }
+        ],
+        "background": "linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%)"
+      },
+      {
+        "id": "slide-102",
+        "slideNumber": 2,
+        "title": "VẤN ĐỀ CỦA THỊ TRƯỜNG & CƠ HỘI",
+        "subtitle": "Doanh nghiệp đang lãng phí hàng ngàn giờ lao động cho các biểu mẫu thủ công rời rạc",
+        "layout": "content-bullets",
+        "elements": [
+          {
+            "id": "el-4",
+            "type": "bullets",
+            "content": [
+              "Hơn 73% nhân viên văn phòng mất từ 30-45 phút để tìm kiếm và định dạng lại tài liệu mẫu cũ.",
+              "Nguy cơ sai sót pháp lý nghiêm trọng do các phiên bản hợp đồng không đồng nhất trên ổ đĩa cá nhân.",
+              "Các giải pháp hiện nay hoặc quá cồng kềnh (ERP phức tạp) hoặc thiếu tính năng tùy biến nội dung sâu.",
+              "Nhu cầu cấp thiết về một thư viện trung tâm: chuẩn hóa, an toàn dữ liệu và tạo mới tức thì."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "slide-103",
+        "slideNumber": 3,
+        "title": "GIẢI PHÁP ĐỘT PHÁ CỦA CHÚNG TÔI",
+        "subtitle": "Kho tài nguyên thông minh + Trình chỉnh sửa văn bản & slide tích hợp 100%",
+        "layout": "two-columns",
+        "elements": [
+          {
+            "id": "el-5",
+            "type": "paragraph",
+            "content": "OmniDoc biến các mẫu tài liệu tĩnh thành các bản ghi thông minh có thể điền trường dữ liệu tức thì, xem trước trực quan và tải xuống định dạng chuẩn Microsoft Office."
+          },
+          {
+            "id": "el-6",
+            "type": "bullets",
+            "content": [
+              "Thư viện hơn 500+ mẫu hợp đồng & bộ slide được chuyên gia thẩm định.",
+              "Trình soạn thảo trực quan hỗ trợ xuất định dạng .DOCX và .PPTX tương thích tuyệt đối.",
+              "Cơ chế bảo vệ file gốc (Zero-Destructive Copy) an toàn và độc lập hoàn toàn."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "slide-104",
+        "slideNumber": 4,
+        "title": "CHỈ SỐ TĂNG TRƯỞNG & DỰ THU",
+        "subtitle": "Tăng trưởng vượt bậc với mô hình SaaS B2B có tỷ lệ giữ chân khách hàng cao",
+        "layout": "stats-kpi",
+        "elements": [
+          {
+            "id": "el-7",
+            "type": "kpis",
+            "content": [
+              {
+                "label": "Doanh thu định kỳ (ARR)",
+                "value": "$1.2M",
+                "desc": "+185% so với năm trước"
+              },
+              {
+                "label": "Khách hàng Doanh nghiệp",
+                "value": "450+",
+                "desc": "Bao gồm top 50 công ty Fintech"
+              },
+              {
+                "label": "Tỷ lệ duy trì hàng tháng",
+                "value": "96.4%",
+                "desc": "Net Revenue Retention: 124%"
+              },
+              {
+                "label": "Tài liệu khởi tạo mỗi ngày",
+                "value": "25,000+",
+                "desc": "Tiết kiệm 85,000 giờ làm việc"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "slide-105",
+        "slideNumber": 5,
+        "title": "MỤC TIÊU SỬ DỤNG VỐN & LỜI KÊU GỌI",
+        "subtitle": "Tìm kiếm vòng đầu tư $500,000 để mở rộng quy mô sản phẩm và chiếm lĩnh thị trường Đông Nam Á",
+        "layout": "content-bullets",
+        "elements": [
+          {
+            "id": "el-8",
+            "type": "bullets",
+            "content": [
+              "50% R&D: Tích hợp trợ lý trí tuệ nhân tạo AI gợi ý điều khoản hợp đồng thông minh.",
+              "30% Go-to-Market: Mở rộng đội ngũ bán hàng Doanh nghiệp tại TP.HCM và Singapore.",
+              "20% Vận hành & Bảo mật: Đạt chứng chỉ bảo mật quốc tế SOC2 Type II và ISO 27001.",
+              "Liên hệ đầu tư: an.nguyen@omnidoc.io | Hotline: (+84) 912 345 678"
+            ]
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-01-20T10:00:00Z",
+    "updatedAt": "2025-10-18T15:20:00Z"
+  },
+  {
+    "id": "pres-02-bao-cao-kinh-doanh-quy",
+    "title": "Báo cáo kết quả kinh doanh quý (Business Review)",
+    "category": "Kinh doanh",
+    "description": "Bộ slide báo cáo điều hành chuyên nghiệp dành cho cuộc họp HĐQT và Ban Giám đốc, phân tích doanh thu, chi phí, chỉ số tăng trưởng và mục tiêu chiến lược.",
+    "thumbnailUrl": "/thumbnails/pres-business-review.svg",
+    "filePath": "templates/presentations/bao-cao-kinh-doanh-quy.pptx",
+    "fileFormat": "pptx",
+    "tags": [
+      "Kinh doanh",
+      "Báo cáo",
+      "Tài chính",
+      "HĐQT",
+      "KPI"
+    ],
+    "slidesCount": 5,
+    "theme": {
+      "name": "Corporate Emerald",
+      "primaryColor": "#059669",
+      "secondaryColor": "#047857",
+      "accentColor": "#10b981",
+      "backgroundColor": "#ffffff",
+      "textColor": "#0f172a",
+      "fontHeading": "Plus Jakarta Sans",
+      "fontBody": "Plus Jakarta Sans"
+    },
+    "slides": [
+      {
+        "id": "slide-201",
+        "slideNumber": 1,
+        "title": "BÁO CÁO KẾT QUẢ KINH DOANH QUÝ 3 / 2025",
+        "subtitle": "Đánh giá hoạt động kinh doanh toàn diện và định hướng chiến lược tăng tốc quý 4",
+        "layout": "title",
+        "elements": [
+          {
+            "id": "el-21",
+            "type": "heading",
+            "content": "BÁO CÁO KẾT QUẢ KINH DOANH QUÝ 3 / 2025"
+          },
+          {
+            "id": "el-22",
+            "type": "subtitle",
+            "content": "Ban Giám đốc Điều hành | Báo cáo Hội đồng Quản trị"
+          },
+          {
+            "id": "el-23",
+            "type": "paragraph",
+            "content": "Thời gian: Tháng 10/2025 | Bảo mật nội bộ cấp 1"
+          }
+        ],
+        "background": "linear-gradient(135deg, #064e3b 0%, #059669 100%)"
+      },
+      {
+        "id": "slide-202",
+        "slideNumber": 2,
+        "title": "TỔNG QUAN HOẠT ĐỘNG ĐIỀU HÀNH",
+        "subtitle": "Vượt chỉ tiêu kế hoạch quý trên cả 3 trụ cột doanh thu, lợi nhuận và mở rộng tệp khách hàng",
+        "layout": "content-bullets",
+        "elements": [
+          {
+            "id": "el-24",
+            "type": "bullets",
+            "content": [
+              "Doanh thu thuần hợp nhất đạt 115% kế hoạch đề ra đầu quý.",
+              "Biên lợi nhuận gộp cải thiện 4.2% nhờ tối ưu chi phí hạ tầng điện toán đám mây.",
+              "Mở rộng thành công 35 tài khoản khách hàng doanh nghiệp thuộc nhóm Top 500 VNR.",
+              "Hoàn thiện hệ sinh thái mẫu biểu điện tử và hệ thống chữ ký số tích hợp."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "slide-203",
+        "slideNumber": 3,
+        "title": "CÁC CHỈ SỐ TÀI CHÍNH THEN CHỐT",
+        "subtitle": "Tăng trưởng tài chính lành mạnh và dòng tiền hoạt động dương liên tục 4 quý",
+        "layout": "stats-kpi",
+        "elements": [
+          {
+            "id": "el-25",
+            "type": "kpis",
+            "content": [
+              {
+                "label": "Tổng doanh thu quý 3",
+                "value": "48.5 Tỷ VNĐ",
+                "desc": "+22.4% so với cùng kỳ"
+              },
+              {
+                "label": "Lợi nhuận trước thuế",
+                "value": "12.8 Tỷ VNĐ",
+                "desc": "Đạt 118% kế hoạch quý"
+              },
+              {
+                "label": "Chi phí bán hàng (CAC)",
+                "value": "3.2 Triệu VNĐ",
+                "desc": "Giảm 14% nhờ Inbound Marketing"
+              },
+              {
+                "label": "Giá trị vòng đời (LTV)",
+                "value": "68 Triệu VNĐ",
+                "desc": "Tỷ lệ LTV/CAC đạt mức 21x"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "slide-204",
+        "slideNumber": 4,
+        "title": "PHÂN TÍCH THỊ PHẦN THEO KHU VỰC",
+        "subtitle": "Thị trường miền Bắc và miền Nam đóng góp chủ lực, thị trường miền Trung bứt phá mạnh mẽ",
+        "layout": "two-columns",
+        "elements": [
+          {
+            "id": "el-26",
+            "type": "paragraph",
+            "content": "Thị trường Hà Nội và TP.HCM tiếp tục giữ vững vị thế đầu tàu với hơn 75% tỷ trọng doanh thu. Đáng chú ý, phân khúc doanh nghiệp vừa và nhỏ (SME) tại Đà Nẵng và Hải Phòng ghi nhận mức độ áp dụng giải pháp số hóa tài liệu tăng gấp đôi."
+          },
+          {
+            "id": "el-27",
+            "type": "bullets",
+            "content": [
+              "Hà Nội: 45% tổng doanh số (Đội ngũ Bán hàng Doanh nghiệp lớn).",
+              "TP. Hồ Chí Minh: 38% tổng doanh số (Tập trung nhóm ngành Bán lẻ & Tài chính).",
+              "Các tỉnh thành khác: 17% tổng doanh số và duy trì đà tăng trưởng 3 chữ số."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "slide-205",
+        "slideNumber": 5,
+        "title": "MỤC TIÊU CHIẾN LƯỢC QUÝ 4 / 2025",
+        "subtitle": "Tập trung cán đích doanh thu năm và chuẩn bị nền tảng bứt phá cho năm tài chính 2026",
+        "layout": "content-bullets",
+        "elements": [
+          {
+            "id": "el-28",
+            "type": "bullets",
+            "content": [
+              "Cán mốc 60 Tỷ VNĐ doanh thu quý 4 để hoàn thành 100% mục tiêu cả năm.",
+              "Ra mắt tính năng tạo mẫu slide tự động bằng AI và đồng bộ dữ liệu thời gian thực.",
+              "Tổ chức Hội nghị Khách hàng Thường niên tri ân hơn 500 đối tác chiến lược.",
+              "Hoàn tất thẩm định kế hoạch ngân sách và chỉ tiêu kinh doanh cho năm tài chính 2026."
+            ]
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-02-15T09:00:00Z",
+    "updatedAt": "2025-10-22T17:15:00Z"
+  },
+  {
+    "id": "pres-03-ke-hoach-ra-mat-san-pham",
+    "title": "Kế hoạch ra mắt sản phẩm mới (Product Launch)",
+    "category": "Marketing",
+    "description": "Chiến lược Go-to-Market toàn diện cho đợt ra mắt sản phẩm công nghệ mới, xác định định vị, chân dung khách hàng, kế hoạch truyền thông đa kênh và lộ trình thực thi.",
+    "thumbnailUrl": "/thumbnails/pres-product-launch.svg",
+    "filePath": "templates/presentations/ke-hoach-ra-mat-san-pham.pptx",
+    "fileFormat": "pptx",
+    "tags": [
+      "Marketing",
+      "Sản phẩm",
+      "GTM",
+      "Chiến dịch",
+      "Launch"
+    ],
+    "slidesCount": 5,
+    "theme": {
+      "name": "Modern Crimson",
+      "primaryColor": "#c43e1c",
+      "secondaryColor": "#9a3412",
+      "accentColor": "#ea580c",
+      "backgroundColor": "#ffffff",
+      "textColor": "#0f172a",
+      "fontHeading": "Plus Jakarta Sans",
+      "fontBody": "Plus Jakarta Sans"
+    },
+    "slides": [
+      {
+        "id": "slide-301",
+        "slideNumber": 1,
+        "title": "KẾ HOẠCH RA MẮT SẢN PHẨM MỚI: OMNI STUDIO 2.0",
+        "subtitle": "Chiến dịch truyền thông & Lộ trình Go-to-Market Quý 4/2025",
+        "layout": "title",
+        "elements": [
+          {
+            "id": "el-31",
+            "type": "heading",
+            "content": "KẾ HOẠCH RA MẮT SẢN PHẨM MỚI: OMNI STUDIO 2.0"
+          },
+          {
+            "id": "el-32",
+            "type": "subtitle",
+            "content": "Định nghĩa lại trải nghiệm làm việc với tài liệu & bài thuyết trình chuyên nghiệp"
+          },
+          {
+            "id": "el-33",
+            "type": "paragraph",
+            "content": "Bộ phận Marketing & Quản trị Sản phẩm | Tháng 11/2025"
+          }
+        ],
+        "background": "linear-gradient(135deg, #7c2d12 0%, #c43e1c 100%)"
+      },
+      {
+        "id": "slide-302",
+        "slideNumber": 2,
+        "title": "TẦM NHÌN SẢN PHẨM & ĐỊNH VỊ",
+        "subtitle": "Cung cấp giải pháp văn phòng tất-cả-trong-một với tốc độ phản hồi tính bằng mili-giây",
+        "layout": "two-columns",
+        "elements": [
+          {
+            "id": "el-34",
+            "type": "paragraph",
+            "content": "Omni Studio 2.0 không chỉ là kho mẫu tĩnh. Đây là không gian làm việc số nơi người dùng có thể tìm mẫu chuẩn xác trong 3 giây, điền biến thông minh chỉ với 1 cú click và xuất bản tài liệu ngay lập tức với định dạng chuẩn Microsoft Office."
+          },
+          {
+            "id": "el-35",
+            "type": "bullets",
+            "content": [
+              "Tốc độ tải siêu nhanh dưới 1.2 giây.",
+              "Giao diện trực quan chuẩn thiết kế hiện đại.",
+              "Bảo vệ dữ liệu tuyệt đối với cơ chế cách ly bản sao."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "slide-303",
+        "slideNumber": 3,
+        "title": "CHÂN DUNG KHÁCH HÀNG MỤC TIÊU",
+        "subtitle": "Tập trung vào 3 nhóm đối tượng mang lại giá trị sử dụng cao nhất",
+        "layout": "content-bullets",
+        "elements": [
+          {
+            "id": "el-36",
+            "type": "bullets",
+            "content": [
+              "Nhóm 1 - Khối Doanh nghiệp vừa và nhỏ (SMEs): Tiết kiệm chi phí thuê luật sư hay đội thiết kế slide riêng.",
+              "Nhóm 2 - Quản lý Dự án & Kỹ sư Công nghệ (PMs/Tech Leads): Soạn thảo biên bản, báo cáo tiến độ theo chuẩn chuyên nghiệp.",
+              "Nhóm 3 - Chuyên viên Tuyển dụng & Hành chính Nhân sự (HR): Quản lý kho hợp đồng lao động và thư mời việc đồng bộ."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "slide-304",
+        "slideNumber": 4,
+        "title": "CÁC MỐC THỜI GIAN TRIỂN KHAI (TIMELINE)",
+        "subtitle": "Lộ trình 4 tuần chuẩn bị cho sự kiện Launching bùng nổ trên truyền thông",
+        "layout": "content-bullets",
+        "elements": [
+          {
+            "id": "el-37",
+            "type": "bullets",
+            "content": [
+              "Tuần 1 (01/11 - 07/11): Thử nghiệm Private Beta với 100 doanh nghiệp thân thiết.",
+              "Tuần 2 (08/11 - 14/11): Hoàn tất tối ưu hạ tầng, mở cổng đăng ký Early Bird nhận ưu đãi 40%.",
+              "Tuần 3 (15/11): Họp báo công bố chính thức và Livestream Demo sản phẩm trên các nền tảng mạng xã hội.",
+              "Tuần 4 (22/11 trở đi): Chạy chiến dịch Performance Marketing và chuỗi Webinar đào tạo sử dụng."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "slide-305",
+        "slideNumber": 5,
+        "title": "CHỈ SỐ THÀNH CÔNG DỰ KIẾN (KPI LAUNCH)",
+        "subtitle": "Đặt mục tiêu tiếp cận hơn 100,000 lượt tải và tạo mới tài liệu trong 30 ngày đầu",
+        "layout": "stats-kpi",
+        "elements": [
+          {
+            "id": "el-38",
+            "type": "kpis",
+            "content": [
+              {
+                "label": "Tài khoản đăng ký mới",
+                "value": "25,000+",
+                "desc": "Trong 30 ngày đầu ra mắt"
+              },
+              {
+                "label": "Tỷ lệ kích hoạt tài liệu",
+                "value": "68%",
+                "desc": "Tạo ít nhất 1 tài liệu sau khi đăng ký"
+              },
+              {
+                "label": "Điểm đánh giá trải nghiệm (NPS)",
+                "value": "82/100",
+                "desc": "Mức hài lòng xuất sắc"
+              },
+              {
+                "label": "Doanh thu đợt mở bán sớm",
+                "value": "2.5 Tỷ VNĐ",
+                "desc": "Gói thành viên Doanh nghiệp 1 năm"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-03-05T08:30:00Z",
+    "updatedAt": "2025-10-24T14:10:00Z"
+  },
+  {
+    "id": "pres-04-ho-so-nang-luc-cong-ty",
+    "title": "Company Profile - Hồ sơ năng lực doanh nghiệp",
+    "category": "Doanh nghiệp",
+    "description": "Mẫu thuyết trình giới thiệu tổng quan về năng lực, đội ngũ lãnh đạo, dịch vụ trọng tâm và danh sách dự án tiêu biểu gửi tới khách hàng và đối tác.",
+    "thumbnailUrl": "/thumbnails/pres-company-profile.svg",
+    "filePath": "templates/presentations/ho-so-nang-luc-cong-ty.pptx",
+    "fileFormat": "pptx",
+    "tags": [
+      "Hồ sơ năng lực",
+      "Doanh nghiệp",
+      "Giới thiệu",
+      "Đối tác",
+      "B2B"
+    ],
+    "slidesCount": 4,
+    "theme": {
+      "name": "Royal Purple",
+      "primaryColor": "#7c3aed",
+      "secondaryColor": "#6d28d9",
+      "accentColor": "#a855f7",
+      "backgroundColor": "#ffffff",
+      "textColor": "#0f172a",
+      "fontHeading": "Plus Jakarta Sans",
+      "fontBody": "Plus Jakarta Sans"
+    },
+    "slides": [
+      {
+        "id": "slide-401",
+        "slideNumber": 1,
+        "title": "HỒ SƠ NĂNG LỰC DOANH NGHIỆP",
+        "subtitle": "Kiến tạo giải pháp công nghệ văn phòng số dẫn đầu kỷ nguyên mới",
+        "layout": "title",
+        "elements": [
+          {
+            "id": "el-41",
+            "type": "heading",
+            "content": "HỒ SƠ NĂNG LỰC DOANH NGHIỆP"
+          },
+          {
+            "id": "el-42",
+            "type": "subtitle",
+            "content": "Công ty Cổ phần Công nghệ OmniDoc Việt Nam"
+          },
+          {
+            "id": "el-43",
+            "type": "paragraph",
+            "content": "Khát vọng Việt - Vươn tầm Quốc tế | Hồ sơ năm 2025"
+          }
+        ],
+        "background": "linear-gradient(135deg, #4c1d95 0%, #7c3aed 100%)"
+      },
+      {
+        "id": "slide-402",
+        "slideNumber": 2,
+        "title": "VỀ CHÚNG TÔI & TẦM NHÌN",
+        "subtitle": "Hơn 8 năm kinh nghiệm đồng hành cùng chuyển đổi số của hàng trăm tổ chức",
+        "layout": "two-columns",
+        "elements": [
+          {
+            "id": "el-44",
+            "type": "paragraph",
+            "content": "Được thành lập bởi đội ngũ kỹ sư hàng đầu có đam mê chuẩn hóa quy trình làm việc, OmniDoc đã phát triển từ một startup công nghệ thành đơn vị cung cấp giải pháp mẫu tài liệu văn phòng số tin cậy cho khối ngân hàng, viễn thông và tập đoàn sản xuất."
+          },
+          {
+            "id": "el-45",
+            "type": "bullets",
+            "content": [
+              "Sứ mệnh: Xóa bỏ rào cản hành chính thủ công, giải phóng sáng tạo cho người lao động.",
+              "Tầm nhìn: Trở thành nền tảng quản trị tài liệu văn phòng số số 1 Việt Nam trước năm 2028.",
+              "Giá trị cốt lõi: Đổi mới sáng tạo - An toàn dữ liệu - Trải nghiệm khách hàng vượt trội."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "slide-403",
+        "slideNumber": 3,
+        "title": "CÁC LĨNH VỰC NĂNG LỰC CỐT LÕI",
+        "subtitle": "Hệ sinh thái sản phẩm và dịch vụ công nghệ toàn diện",
+        "layout": "content-bullets",
+        "elements": [
+          {
+            "id": "el-46",
+            "type": "bullets",
+            "content": [
+              "1. Thư viện Tài liệu Số hóa Thông minh: Tự động hóa soạn thảo văn bản, hợp đồng, đơn từ với mẫu biểu chuẩn hóa.",
+              "2. Công cụ Trình chiếu Slide Tương tác: Trực quan hóa dữ liệu kinh doanh thành bài thuyết trình ấn tượng.",
+              "3. Tích hợp API Doanh nghiệp: Kết nối mượt mà vào hệ thống CRM, ERP, HRM nội bộ của doanh nghiệp.",
+              "4. Dịch vụ Tư vấn Chuẩn hóa Quy trình: Đội ngũ chuyên gia pháp lý và thiết kế tùy biến riêng theo nhu cầu doanh nghiệp."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "slide-404",
+        "slideNumber": 4,
+        "title": "THÀNH TỰU & KHÁCH HÀNG TIÊU BIỂU",
+        "subtitle": "Minh chứng cho chất lượng dịch vụ và niềm tin của cộng đồng doanh nghiệp",
+        "layout": "stats-kpi",
+        "elements": [
+          {
+            "id": "el-47",
+            "type": "kpis",
+            "content": [
+              {
+                "label": "Doanh nghiệp tin dùng",
+                "value": "1,500+",
+                "desc": "Trên toàn quốc"
+              },
+              {
+                "label": "Tài liệu khởi tạo",
+                "value": "2.8 Triệu",
+                "desc": "Bảo mật an toàn 100%"
+              },
+              {
+                "label": "Độ hài lòng dịch vụ",
+                "value": "99.2%",
+                "desc": "Đánh giá 5 sao từ đối tác"
+              },
+              {
+                "label": "Giải thưởng Công nghệ",
+                "value": "Top 10",
+                "desc": "Sản phẩm Make in Vietnam"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "createdAt": "2025-03-20T10:00:00Z",
+    "updatedAt": "2025-10-26T11:00:00Z"
+  }
+]

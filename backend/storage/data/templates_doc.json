@@ -1,0 +1,488 @@
+[
+  {
+    "id": "doc-01-hop-dong-lao-dong",
+    "title": "Hợp đồng lao động tiêu chuẩn 2025",
+    "category": "Hợp đồng",
+    "description": "Mẫu hợp đồng lao động chuẩn theo quy định Bộ luật Lao động, bao gồm đầy đủ điều khoản về công việc, tiền lương, bảo hiểm và quyền lợi của người lao động.",
+    "thumbnailUrl": "/thumbnails/doc-hop-dong.svg",
+    "filePath": "templates/documents/hop-dong-lao-dong.docx",
+    "fileFormat": "docx",
+    "tags": [
+      "Hợp đồng",
+      "Nhân sự",
+      "Pháp lý",
+      "Tiêu chuẩn"
+    ],
+    "version": "2.5.0",
+    "author": "Phòng Pháp chế & Nhân sự",
+    "downloadsCount": 1432,
+    "fields": [
+      {
+        "key": "nguoi_su_dung_lao_dong",
+        "label": "Tên Doanh nghiệp (Bên A)",
+        "defaultValue": "CÔNG TY CỔ PHẦN CÔNG NGHỆ OMNIDOC",
+        "type": "text"
+      },
+      {
+        "key": "dai_dien_ben_a",
+        "label": "Đại diện bên A (Họ tên - Chức vụ)",
+        "defaultValue": "Ông Nguyễn Văn An - Tổng Giám đốc",
+        "type": "text"
+      },
+      {
+        "key": "dia_chi_ben_a",
+        "label": "Địa chỉ doanh nghiệp",
+        "defaultValue": "Tầng 12, Tòa nhà Innovation, Cầu Giấy, Hà Nội",
+        "type": "text"
+      },
+      {
+        "key": "ho_ten_nguoi_lao_dong",
+        "label": "Họ tên Người lao động (Bên B)",
+        "defaultValue": "Trần Thị Bình",
+        "type": "text"
+      },
+      {
+        "key": "ngay_sinh",
+        "label": "Ngày tháng năm sinh",
+        "defaultValue": "15/08/1996",
+        "type": "date"
+      },
+      {
+        "key": "so_cccd",
+        "label": "Số CCCD/Hộ chiếu",
+        "defaultValue": "001196001234",
+        "type": "text"
+      },
+      {
+        "key": "chuc_danh_chuyen_mon",
+        "label": "Chức danh công việc",
+        "defaultValue": "Kỹ sư Phần mềm Cao cấp",
+        "type": "text"
+      },
+      {
+        "key": "muc_luong_chinh",
+        "label": "Mức lương cơ bản (VNĐ/tháng)",
+        "defaultValue": "35,000,000 VNĐ",
+        "type": "text"
+      },
+      {
+        "key": "ngay_bat_dau",
+        "label": "Ngày bắt đầu hợp đồng",
+        "defaultValue": "01/11/2025",
+        "type": "date"
+      }
+    ],
+    "contentHtml": "\n<div style=\"font-family: 'Times New Roman', serif; line-height: 1.6; max-width: 800px; margin: 0 auto; color: #111;\">\n  <div style=\"text-align: center; margin-bottom: 24px;\">\n    <h3 style=\"margin: 0; font-size: 14pt; font-weight: bold; text-transform: uppercase;\">CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</h3>\n    <p style=\"margin: 4px 0 0; font-size: 13pt; font-weight: bold;\">Độc lập - Tự do - Hạnh phúc</p>\n    <div style=\"width: 160px; height: 1px; background: #000; margin: 6px auto 18px;\"></div>\n    <h2 style=\"margin: 16px 0 6px; font-size: 16pt; font-weight: bold; text-transform: uppercase; color: #1a365d;\">HỢP ĐỒNG LAO ĐỘNG</h2>\n    <p style=\"margin: 0; font-style: italic; font-size: 11pt;\">Số: 2025/HĐLĐ-OMNI</p>\n  </div>\n\n  <p>Hôm nay, ngày <em>... tháng ... năm 2025</em>, tại trụ sở Công ty Cổ phần Công nghệ OmniDoc, chúng tôi gồm có:</p>\n\n  <h4 style=\"font-size: 13pt; font-weight: bold; margin-top: 16px; border-bottom: 1px solid #ccc; padding-bottom: 4px;\">I. BÊN SỬ DỤNG LAO ĐỘNG (BÊN A):</h4>\n  <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 12px;\">\n    <tr><td style=\"width: 30%; padding: 4px 0;\"><strong>Tên doanh nghiệp:</strong></td><td style=\"padding: 4px 0;\">{{nguoi_su_dung_lao_dong}}</td></tr>\n    <tr><td style=\"padding: 4px 0;\"><strong>Đại diện pháp luật:</strong></td><td style=\"padding: 4px 0;\">{{dai_dien_ben_a}}</td></tr>\n    <tr><td style=\"padding: 4px 0;\"><strong>Địa chỉ:</strong></td><td style=\"padding: 4px 0;\">{{dia_chi_ben_a}}</td></tr>\n    <tr><td style=\"padding: 4px 0;\"><strong>Mã số thuế:</strong></td><td style=\"padding: 4px 0;\">0108999888</td></tr>\n  </table>\n\n  <h4 style=\"font-size: 13pt; font-weight: bold; margin-top: 16px; border-bottom: 1px solid #ccc; padding-bottom: 4px;\">II. BÊN NGƯỜI LAO ĐỘNG (BÊN B):</h4>\n  <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 12px;\">\n    <tr><td style=\"width: 30%; padding: 4px 0;\"><strong>Họ và tên:</strong></td><td style=\"padding: 4px 0;\"><strong>{{ho_ten_nguoi_lao_dong}}</strong></td></tr>\n    <tr><td style=\"padding: 4px 0;\"><strong>Ngày sinh:</strong></td><td style=\"padding: 4px 0;\">{{ngay_sinh}}</td></tr>\n    <tr><td style=\"padding: 4px 0;\"><strong>Số CCCD:</strong></td><td style=\"padding: 4px 0;\">{{so_cccd}}</td></tr>\n    <tr><td style=\"padding: 4px 0;\"><strong>Vị trí đảm nhiệm:</strong></td><td style=\"padding: 4px 0;\"><strong>{{chuc_danh_chuyen_mon}}</strong></td></tr>\n  </table>\n\n  <h4 style=\"font-size: 13pt; font-weight: bold; margin-top: 16px; border-bottom: 1px solid #ccc; padding-bottom: 4px;\">III. ĐIỀU KHOẢN HỢP ĐỒNG:</h4>\n  <p><strong>Điều 1. Thời hạn và công việc:</strong></p>\n  <ul>\n    <li>Loại hợp đồng: Hợp đồng lao động xác định thời hạn 24 tháng.</li>\n    <li>Bắt đầu từ ngày: <strong>{{ngay_bat_dau}}</strong>.</li>\n    <li>Địa điểm làm việc: Trụ sở Bên A hoặc theo sự phân công thực tế của dự án.</li>\n  </ul>\n\n  <p><strong>Điều 2. Chế độ làm việc và quyền lợi tiền lương:</strong></p>\n  <ul>\n    <li>Thời gian làm việc: 40 giờ/tuần (Thứ Hai đến Thứ Sáu, từ 8h30 đến 17h30).</li>\n    <li>Mức lương chính thức: <strong>{{muc_luong_chinh}}</strong>.</li>\n    <li>Hình thức trả lương: Chuyển khoản ngân hàng vào ngày 05 hàng tháng.</li>\n    <li>Chế độ thưởng, phụ cấp ăn trưa, công tác phí theo Quy chế tài chính công ty.</li>\n    <li>Được đóng BHXH, BHYT, BHTN theo đúng quy định pháp luật lao động hiện hành.</li>\n  </ul>\n\n  <p><strong>Điều 3. Nghĩa vụ và bảo mật thông tin:</strong></p>\n  <p>Người lao động cam kết tuân thủ nội quy lao động, an toàn lao động và cam kết bảo mật tuyệt đối các thông tin kinh doanh, mã nguồn và dữ liệu khách hàng của Bên A.</p>\n\n  <table style=\"width: 100%; margin-top: 40px; text-align: center;\">\n    <tr>\n      <td style=\"width: 50%;\">\n        <strong>ĐẠI DIỆN BÊN A</strong><br/>\n        <em>(Ký, ghi rõ họ tên và đóng dấu)</em><br/><br/><br/><br/>\n        <strong>{{dai_dien_ben_a}}</strong>\n      </td>\n      <td style=\"width: 50%;\">\n        <strong>NGƯỜI LAO ĐỘNG (BÊN B)</strong><br/>\n        <em>(Ký và ghi rõ họ tên)</em><br/><br/><br/><br/>\n        <strong>{{ho_ten_nguoi_lao_dong}}</strong>\n      </td>\n    </tr>\n  </table>\n</div>\n    ",
+    "createdAt": "2025-01-15T08:00:00Z",
+    "updatedAt": "2026-10-30T16:50:22.015Z"
+  },
+  {
+    "id": "doc-02-don-xin-nghi-phep",
+    "title": "Đơn xin nghỉ phép năm",
+    "category": "Nhân sự",
+    "description": "Biểu mẫu tiêu chuẩn dành cho cán bộ nhân viên đăng ký nghỉ phép năm, nghỉ phép chế độ có kế hoạch bàn giao công việc chi tiết.",
+    "thumbnailUrl": "/thumbnails/doc-don-nghi-phep.svg",
+    "filePath": "templates/documents/don-xin-nghi-phep.docx",
+    "fileFormat": "docx",
+    "tags": [
+      "Nhân sự",
+      "Nghỉ phép",
+      "Biểu mẫu",
+      "Nội bộ"
+    ],
+    "version": "1.4.0",
+    "author": "Phòng Nhân sự & Hành chính",
+    "downloadsCount": 2321,
+    "fields": [
+      {
+        "key": "kinh_gui",
+        "label": "Kính gửi (Bộ phận / Quản lý)",
+        "defaultValue": "Ban Giám đốc & Trưởng phòng Kỹ thuật",
+        "type": "text"
+      },
+      {
+        "key": "ho_ten",
+        "label": "Họ và tên nhân viên",
+        "defaultValue": "Nguyễn Hoàng Long",
+        "type": "text"
+      },
+      {
+        "key": "ma_nhan_vien",
+        "label": "Mã nhân viên",
+        "defaultValue": "EMP-2024-88",
+        "type": "text"
+      },
+      {
+        "key": "chuc_vu",
+        "label": "Chức danh",
+        "defaultValue": "Chuyên viên Phát triển Frontend",
+        "type": "text"
+      },
+      {
+        "key": "so_ngay_nghi",
+        "label": "Số ngày nghỉ dự kiến",
+        "defaultValue": "03 ngày",
+        "type": "text"
+      },
+      {
+        "key": "thoi_gian_nghi",
+        "label": "Thời gian nghỉ (Từ ngày - Đến ngày)",
+        "defaultValue": "Từ ngày 10/11/2025 đến hết ngày 12/11/2025",
+        "type": "text"
+      },
+      {
+        "key": "ly_do_nghi",
+        "label": "Lý do xin nghỉ",
+        "defaultValue": "Giải quyết việc cá nhân gia đình tại quê",
+        "type": "textarea"
+      },
+      {
+        "key": "nguoi_ban_giao",
+        "label": "Người nhận bàn giao công việc",
+        "defaultValue": "Phạm Minh Tuấn (Senior Dev)",
+        "type": "text"
+      }
+    ],
+    "contentHtml": "\n<div style=\"font-family: 'Times New Roman', serif; line-height: 1.6; max-width: 750px; margin: 0 auto; color: #111;\">\n  <div style=\"text-align: center; margin-bottom: 20px;\">\n    <h3 style=\"margin: 0; font-size: 13pt; font-weight: bold; text-transform: uppercase;\">CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</h3>\n    <p style=\"margin: 4px 0 0; font-size: 12pt; font-weight: bold;\">Độc lập - Tự do - Hạnh phúc</p>\n    <div style=\"width: 140px; height: 1px; background: #000; margin: 6px auto 16px;\"></div>\n    <h2 style=\"margin: 16px 0 4px; font-size: 16pt; font-weight: bold; text-transform: uppercase; color: #1e3a8a;\">ĐƠN XIN NGHỈ PHÉP NĂM</h2>\n  </div>\n\n  <p><strong>Kính gửi:</strong> {{kinh_gui}}</p>\n\n  <p>Tôi tên là: <strong>{{ho_ten}}</strong></p>\n  <p>Mã nhân viên: <strong>{{ma_nhan_vien}}</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chức vụ: <strong>{{chuc_vu}}</strong></p>\n  <p>Bộ phận công tác: Khối Công nghệ Thông tin</p>\n\n  <p>Nay tôi làm đơn này kính xin phép được nghỉ làm việc:</p>\n  <ul>\n    <li>Số ngày xin nghỉ: <strong>{{so_ngay_nghi}}</strong></li>\n    <li>Thời gian nghỉ: <strong>{{thoi_gian_nghi}}</strong></li>\n    <li>Lý do: {{ly_do_nghi}}</li>\n  </ul>\n\n  <p><strong>Phương án bàn giao và đảm bảo công việc:</strong></p>\n  <p>Trong thời gian tôi nghỉ phép, toàn bộ công việc và nhiệm vụ trực sprint đã được bàn giao chi tiết cho đồng nghiệp: <strong>{{nguoi_ban_giao}}</strong>. Tôi cam kết giữ liên lạc qua điện thoại trong trường hợp khẩn cấp.</p>\n\n  <p>Kính mong Ban Giám đốc và Trưởng bộ phận xem xét phê duyệt.</p>\n\n  <table style=\"width: 100%; margin-top: 36px; text-align: center;\">\n    <tr>\n      <td style=\"width: 33%;\">\n        <strong>TRƯỞNG BỘ PHẬN</strong><br/>\n        <em>(Ký & duyệt)</em><br/><br/><br/><br/>\n      </td>\n      <td style=\"width: 33%;\">\n        <strong>NGƯỜI NHẬN BÀN GIAO</strong><br/>\n        <em>(Xác nhận nhận việc)</em><br/><br/><br/><br/>\n        <em>{{nguoi_ban_giao}}</em>\n      </td>\n      <td style=\"width: 34%;\">\n        <strong>NGƯỜI LÀM ĐƠN</strong><br/>\n        <em>(Ký và ghi rõ họ tên)</em><br/><br/><br/><br/>\n        <strong>{{ho_ten}}</strong>\n      </td>\n    </tr>\n  </table>\n</div>\n    ",
+    "createdAt": "2025-02-01T09:00:00Z",
+    "updatedAt": "2026-11-01T06:26:32.103Z"
+  },
+  {
+    "id": "doc-03-bien-ban-cuoc-hop",
+    "title": "Biên bản cuộc họp ban dự án / giám đốc",
+    "category": "Hành chính",
+    "description": "Mẫu biên bản cuộc họp tổng hợp chương trình, thành phần tham dự, các quyết sách quan trọng và bảng phân công hành động (Action Items) có thời hạn.",
+    "thumbnailUrl": "/thumbnails/doc-bien-ban.svg",
+    "filePath": "templates/documents/bien-ban-cuoc-hop.docx",
+    "fileFormat": "docx",
+    "tags": [
+      "Hành chính",
+      "Cuộc họp",
+      "Quản lý dự án",
+      "Báo cáo"
+    ],
+    "version": "1.3.0",
+    "author": "Văn phòng Thư ký",
+    "downloadsCount": 1852,
+    "fields": [
+      {
+        "key": "ten_cuoc_hop",
+        "label": "Tên cuộc họp",
+        "defaultValue": "Cuộc họp Đánh giá Tiến độ Dự án Nâng cấp Hệ thống ERP",
+        "type": "text"
+      },
+      {
+        "key": "thoi_gian",
+        "label": "Thời gian tổ chức",
+        "defaultValue": "09:00 - 11:30 ngày 25/10/2025",
+        "type": "text"
+      },
+      {
+        "key": "dia_diem",
+        "label": "Địa điểm / Phòng họp",
+        "defaultValue": "Phòng họp Lotus (Tầng 8) & Kết nối Trực tuyến Google Meet",
+        "type": "text"
+      },
+      {
+        "key": "chu_tri",
+        "label": "Chủ trì cuộc họp",
+        "defaultValue": "Lê Quang Hải - Giám đốc Công nghệ (CTO)",
+        "type": "text"
+      },
+      {
+        "key": "thu_ky",
+        "label": "Thư ký ghi chép",
+        "defaultValue": "Vũ Thu Trang",
+        "type": "text"
+      }
+    ],
+    "contentHtml": "\n<div style=\"font-family: 'Times New Roman', serif; line-height: 1.6; max-width: 800px; margin: 0 auto; color: #111;\">\n  <div style=\"text-align: center; margin-bottom: 20px;\">\n    <h2 style=\"margin: 0 0 6px; font-size: 16pt; font-weight: bold; text-transform: uppercase; color: #0f172a;\">BIÊN BẢN CUỘC HỌP</h2>\n    <p style=\"margin: 0; font-size: 13pt; font-weight: bold; color: #2563eb;\">{{ten_cuoc_hop}}</p>\n  </div>\n\n  <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 16px;\">\n    <tr><td style=\"width: 25%; padding: 4px 0;\"><strong>Thời gian:</strong></td><td>{{thoi_gian}}</td></tr>\n    <tr><td style=\"padding: 4px 0;\"><strong>Địa điểm:</strong></td><td>{{dia_diem}}</td></tr>\n    <tr><td style=\"padding: 4px 0;\"><strong>Chủ trì:</strong></td><td>{{chu_tri}}</td></tr>\n    <tr><td style=\"padding: 4px 0;\"><strong>Thư ký:</strong></td><td>{{thu_ky}}</td></tr>\n    <tr><td style=\"padding: 4px 0;\"><strong>Thành phần tham dự:</strong></td><td>Đại diện Ban Giám đốc, Tech Lead, Product Owner, QA Lead (Tổng cộng: 12 thành viên, có mặt đủ).</td></tr>\n  </table>\n\n  <h4 style=\"font-size: 12pt; font-weight: bold; text-transform: uppercase; margin-top: 16px; border-bottom: 2px solid #334155; padding-bottom: 4px;\">I. NỘI DUNG VÀ TIẾN ĐỘ THẢO LUẬN</h4>\n  <ol>\n    <li><strong>Đánh giá tiến độ Sprint 14:</strong> Đạt 92% khối lượng công việc, hoàn thành tích hợp Module Thanh toán và Phân quyền người dùng.</li>\n    <li><strong>Các tồn đọng kỹ thuật:</strong> Ghi nhận hiệu năng tải dữ liệu tại bảng báo cáo tài chính cần tối ưu hóa chỉ số Database Index.</li>\n    <li><strong>Kế hoạch UAT:</strong> Thống nhất bắt đầu bàn giao cho khách hàng thử nghiệm vào ngày 05/11/2025.</li>\n  </ol>\n\n  <h4 style=\"font-size: 12pt; font-weight: bold; text-transform: uppercase; margin-top: 16px; border-bottom: 2px solid #334155; padding-bottom: 4px;\">II. KẾT LUẬN VÀ PHÂN CÔNG HÀNH ĐỘNG (ACTION ITEMS)</h4>\n  <table style=\"width: 100%; border-collapse: collapse; margin-top: 8px; border: 1px solid #cbd5e1;\">\n    <thead>\n      <tr style=\"background-color: #f1f5f9; text-align: left;\">\n        <th style=\"border: 1px solid #cbd5e1; padding: 8px;\">STT</th>\n        <th style=\"border: 1px solid #cbd5e1; padding: 8px;\">Nhiệm vụ cụ thể</th>\n        <th style=\"border: 1px solid #cbd5e1; padding: 8px;\">Người phụ trách</th>\n        <th style=\"border: 1px solid #cbd5e1; padding: 8px;\">Hạn chót (Deadline)</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td style=\"border: 1px solid #cbd5e1; padding: 8px; text-align: center;\">1</td>\n        <td style=\"border: 1px solid #cbd5e1; padding: 8px;\">Tối ưu hóa Database Query và Cache Redis cho báo cáo</td>\n        <td style=\"border: 1px solid #cbd5e1; padding: 8px;\">Đội Backend (Anh Tuấn)</td>\n        <td style=\"border: 1px solid #cbd5e1; padding: 8px;\">30/10/2025</td>\n      </tr>\n      <tr>\n        <td style=\"border: 1px solid #cbd5e1; padding: 8px; text-align: center;\">2</td>\n        <td style=\"border: 1px solid #cbd5e1; padding: 8px;\">Hoàn thiện bộ tài liệu hướng dẫn sử dụng phiên bản 2.0</td>\n        <td style=\"border: 1px solid #cbd5e1; padding: 8px;\">Chị Hằng (Technical Writer)</td>\n        <td style=\"border: 1px solid #cbd5e1; padding: 8px;\">03/11/2025</td>\n      </tr>\n      <tr>\n        <td style=\"border: 1px solid #cbd5e1; padding: 8px; text-align: center;\">3</td>\n        <td style=\"border: 1px solid #cbd5e1; padding: 8px;\">Chuẩn bị môi trường UAT Staging có dữ liệu mẫu</td>\n        <td style=\"border: 1px solid #cbd5e1; padding: 8px;\">Đội DevOps (Anh Nam)</td>\n        <td style=\"border: 1px solid #cbd5e1; padding: 8px;\">02/11/2025</td>\n      </tr>\n    </tbody>\n  </table>\n\n  <table style=\"width: 100%; margin-top: 36px; text-align: center;\">\n    <tr>\n      <td style=\"width: 50%;\">\n        <strong>CHỦ TRÌ CUỘC HỌP</strong><br/>\n        <em>(Ký xác nhận)</em><br/><br/><br/><br/>\n        <strong>{{chu_tri}}</strong>\n      </td>\n      <td style=\"width: 50%;\">\n        <strong>THƯ KÝ CUỘC HỌP</strong><br/>\n        <em>(Ký xác nhận)</em><br/><br/><br/><br/>\n        <strong>{{thu_ky}}</strong>\n      </td>\n    </tr>\n  </table>\n</div>\n    ",
+    "createdAt": "2025-02-10T10:00:00Z",
+    "updatedAt": "2026-10-30T11:02:25.140Z"
+  },
+  {
+    "id": "doc-04-bao-cao-tien-do-du-an",
+    "title": "Báo cáo tiến độ dự án định kỳ",
+    "category": "Báo cáo",
+    "description": "Mẫu báo cáo tiến độ quản lý dự án tiêu chuẩn dành cho Project Manager (PM), bao gồm tiến độ các mốc Milestone, chỉ số KPI, rủi ro và kiến nghị.",
+    "thumbnailUrl": "/thumbnails/doc-bao-cao.svg",
+    "filePath": "templates/documents/bao-cao-tien-do-du-an.docx",
+    "fileFormat": "docx",
+    "tags": [
+      "Báo cáo",
+      "Dự án",
+      "Tiến độ",
+      "KPI"
+    ],
+    "version": "2.0.0",
+    "author": "Project Management Office (PMO)",
+    "downloadsCount": 1620,
+    "fields": [
+      {
+        "key": "ten_du_an",
+        "label": "Tên dự án",
+        "defaultValue": "Dự án Xây dựng Nền tảng Thư viện Số OmniDoc",
+        "type": "text"
+      },
+      {
+        "key": "ky_bao_cao",
+        "label": "Kỳ báo cáo",
+        "defaultValue": "Tuần 4 - Tháng 10/2025",
+        "type": "text"
+      },
+      {
+        "key": "quan_ly_du_an",
+        "label": "Quản lý dự án (PM)",
+        "defaultValue": "Đoàn Nhật Minh",
+        "type": "text"
+      },
+      {
+        "key": "ty_le_hoan_thanh",
+        "label": "Tỷ lệ hoàn thành tổng thể",
+        "defaultValue": "78.5%",
+        "type": "text"
+      },
+      {
+        "key": "tinh_trang_suc_khoe",
+        "label": "Tình trạng sức khỏe dự án",
+        "defaultValue": "Xanh (On-track theo đúng tiến độ)",
+        "type": "text"
+      }
+    ],
+    "contentHtml": "\n<div style=\"font-family: 'Times New Roman', serif; line-height: 1.6; max-width: 800px; margin: 0 auto; color: #111;\">\n  <div style=\"border-bottom: 2px solid #2563eb; padding-bottom: 12px; margin-bottom: 20px;\">\n    <h2 style=\"margin: 0; font-size: 17pt; color: #1e3a8a; text-transform: uppercase;\">BÁO CÁO TIẾN ĐỘ DỰ ÁN ĐỊNH KỲ</h2>\n    <p style=\"margin: 4px 0 0; font-size: 12pt; color: #475569;\">Dự án: <strong>{{ten_du_an}}</strong> | Kỳ báo cáo: <strong>{{ky_bao_cao}}</strong></p>\n  </div>\n\n  <table style=\"width: 100%; border-collapse: collapse; margin-bottom: 20px;\">\n    <tr><td style=\"width: 30%; padding: 4px 0;\"><strong>Quản lý dự án (PM):</strong></td><td>{{quan_ly_du_an}}</td></tr>\n    <tr><td style=\"padding: 4px 0;\"><strong>Tiến độ hoàn thành:</strong></td><td><strong style=\"color: #16a34a; font-size: 13pt;\">{{ty_le_hoan_thanh}}</strong></td></tr>\n    <tr><td style=\"padding: 4px 0;\"><strong>Trạng thái sức khỏe:</strong></td><td><strong>{{tinh_trang_suc_khoe}}</strong></td></tr>\n  </table>\n\n  <h4 style=\"font-size: 12pt; font-weight: bold; color: #1e3a8a; margin-top: 20px;\">1. KẾT QUẢ ĐẠT ĐƯỢC TRONG KỲ:</h4>\n  <ul>\n    <li>Hoàn tất giao diện Thư viện Mẫu Văn bản và Trình chiếu theo chuẩn Responsive.</li>\n    <li>Tích hợp thành công trình soạn thảo WYSIWYG có khả năng điền tự động dữ liệu biến mẫu.</li>\n    <li>Thiết lập bộ xuất file tài liệu DOCX và PPTX tiêu chuẩn tương thích Office 365.</li>\n  </ul>\n\n  <h4 style=\"font-size: 12pt; font-weight: bold; color: #1e3a8a; margin-top: 20px;\">2. QUẢN LÝ RỦI RO VÀ GIẢI PHÁP:</h4>\n  <p>- Rủi ro: Dung lượng file PPTX lớn khi nhúng nhiều hình ảnh slide phân giải cao.<br/>\n  - Giải pháp khắc phục: Bổ sung thuật toán nén ảnh client-side trước khi đóng gói tệp tin trình chiếu.</p>\n\n  <h4 style=\"font-size: 12pt; font-weight: bold; color: #1e3a8a; margin-top: 20px;\">3. KẾ HOẠCH CHO KỲ TIẾP THEO:</h4>\n  <ul>\n    <li>Tiến hành kiểm thử hiệu năng chịu tải API đồng thời (Load testing).</li>\n    <li>Triển khai cơ chế phân quyền bảo mật nhiều cấp cho người dùng tổ chức.</li>\n  </ul>\n\n  <div style=\"margin-top: 40px; text-align: right;\">\n    <p style=\"margin: 0;\"><em>Hà Nội, ngày 28 tháng 10 năm 2025</em></p>\n    <p style=\"margin: 4px 0 0;\"><strong>QUẢN LÝ DỰ ÁN</strong></p>\n    <br/><br/><br/>\n    <p style=\"margin: 0; font-weight: bold;\">{{quan_ly_du_an}}</p>\n  </div>\n</div>\n    ",
+    "createdAt": "2025-03-01T10:00:00Z",
+    "updatedAt": "2025-10-28T16:00:00Z"
+  },
+  {
+    "id": "doc-05-thu-moi-nhan-viec",
+    "title": "Thư mời nhận việc (Offer Letter)",
+    "category": "Tuyển dụng",
+    "description": "Thư mời làm việc trang trọng gửi ứng viên trúng tuyển, thông báo vị trí tuyển dụng, thu nhập, chế độ phúc lợi và hướng dẫn ngày đầu tiên nhận việc.",
+    "thumbnailUrl": "/thumbnails/doc-offer-letter.svg",
+    "filePath": "templates/documents/thu-moi-nhan-viec.docx",
+    "fileFormat": "docx",
+    "tags": [
+      "Tuyển dụng",
+      "Nhân sự",
+      "Offer Letter",
+      "Chào đón"
+    ],
+    "version": "1.2.0",
+    "author": "Phòng Tuyển dụng Talent Acquisition",
+    "downloadsCount": 1190,
+    "fields": [
+      {
+        "key": "ho_ten_ung_vien",
+        "label": "Họ tên Ứng viên",
+        "defaultValue": "Đặng Mai Phương",
+        "type": "text"
+      },
+      {
+        "key": "vi_tri_tuyen_dung",
+        "label": "Vị trí công việc",
+        "defaultValue": "Chuyên viên Thiết kế Trải nghiệm Sản phẩm (Product Designer)",
+        "type": "text"
+      },
+      {
+        "key": "ngay_nhan_viec",
+        "label": "Ngày bắt đầu đi làm",
+        "defaultValue": "15/11/2025",
+        "type": "date"
+      },
+      {
+        "key": "muc_luong_gross",
+        "label": "Mức lương cơ bản (Gross/tháng)",
+        "defaultValue": "28,000,000 VNĐ",
+        "type": "text"
+      },
+      {
+        "key": "dia_diem_lam_viec",
+        "label": "Địa điểm làm việc",
+        "defaultValue": "Trụ sở OmniDoc, Cầu Giấy, Hà Nội",
+        "type": "text"
+      },
+      {
+        "key": "nguoi_lien_he_hr",
+        "label": "Cán bộ HR hỗ trợ",
+        "defaultValue": "Chị Mai Linh - Tel: 0988.123.456",
+        "type": "text"
+      }
+    ],
+    "contentHtml": "\n<div style=\"font-family: 'Times New Roman', serif; line-height: 1.6; max-width: 780px; margin: 0 auto; color: #111;\">\n  <div style=\"text-align: center; margin-bottom: 24px;\">\n    <h2 style=\"color: #1e3a8a; margin: 0; font-size: 17pt; text-transform: uppercase;\">THƯ MỜI NHẬN VIỆC (JOB OFFER LETTER)</h2>\n    <p style=\"font-style: italic; color: #64748b; margin: 4px 0 0;\">Chào mừng bạn gia nhập đại gia đình OmniDoc</p>\n  </div>\n\n  <p>Thân gửi bạn: <strong>{{ho_ten_ung_vien}}</strong>,</p>\n\n  <p>Thay mặt Công ty, chúng tôi xin chúc mừng bạn đã vượt qua các vòng phỏng vấn xuất sắc. Chúng tôi rất vinh dự gửi đến bạn thư mời nhận việc chính thức với các thông tin chi tiết như sau:</p>\n\n  <div style=\"background-color: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 16px; margin: 16px 0;\">\n    <table style=\"width: 100%; border-collapse: collapse;\">\n      <tr><td style=\"width: 35%; padding: 6px 0;\"><strong>Vị trí đảm nhiệm:</strong></td><td><strong>{{vi_tri_tuyen_dung}}</strong></td></tr>\n      <tr><td style=\"padding: 6px 0;\"><strong>Bộ phận:</strong></td><td>Phòng Phát triển Trải nghiệm Người dùng (Product Design)</td></tr>\n      <tr><td style=\"padding: 6px 0;\"><strong>Ngày bắt đầu công tác:</strong></td><td><strong style=\"color: #2563eb;\">{{ngay_nhan_viec}}</strong></td></tr>\n      <tr><td style=\"padding: 6px 0;\"><strong>Mức lương hàng tháng:</strong></td><td><strong style=\"color: #16a34a; font-size: 12pt;\">{{muc_luong_gross}}</strong></td></tr>\n      <tr><td style=\"padding: 6px 0;\"><strong>Địa điểm làm việc:</strong></td><td>{{dia_diem_lam_viec}}</td></tr>\n    </table>\n  </div>\n\n  <p><strong>Chính sách đãi ngộ và phúc lợi:</strong></p>\n  <ul>\n    <li>Thưởng hiệu quả công việc tháng lương 13 + thưởng hoàn thành dự án hàng năm.</li>\n    <li>Gói bảo hiểm sức khỏe chăm sóc cao cấp toàn diện (OmniCare).</li>\n    <li>15 ngày phép năm có hưởng nguyên lương và chế độ làm việc Hybrid linh hoạt.</li>\n  </ul>\n\n  <p>Nếu bạn đồng ý với lời mời này, vui lòng ký phản hồi trước 17h00 ngày 05/11/2025. Mọi thắc mắc xin liên hệ trực tiếp: <strong>{{nguoi_lien_he_hr}}</strong>.</p>\n\n  <table style=\"width: 100%; margin-top: 36px; text-align: center;\">\n    <tr>\n      <td style=\"width: 50%;\">\n        <strong>ĐẠI DIỆN CÔNG TY</strong><br/>\n        <em>Giám đốc Nhân sự</em><br/><br/><br/><br/>\n        <strong>Lê Hoàng Yến</strong>\n      </td>\n      <td style=\"width: 50%;\">\n        <strong>XÁC NHẬN CỦA ỨNG VIÊN</strong><br/>\n        <em>Tôi đồng ý tiếp nhận công việc này</em><br/><br/><br/><br/>\n        <strong>{{ho_ten_ung_vien}}</strong>\n      </td>\n    </tr>\n  </table>\n</div>\n    ",
+    "createdAt": "2025-03-10T11:00:00Z",
+    "updatedAt": "2025-10-15T09:30:00Z"
+  },
+  {
+    "id": "doc-06-hop-dong-dich-vu-cntt",
+    "title": "Hợp đồng cung cấp dịch vụ công nghệ thông tin",
+    "category": "Kinh doanh",
+    "description": "Mẫu hợp đồng kinh tế dịch vụ phần mềm B2B hoàn chỉnh, gồm các điều khoản về phạm vi triển khai, mốc bàn giao nghiệm thu, thanh toán và bảo hành.",
+    "thumbnailUrl": "/thumbnails/doc-hop-dong-cntt.svg",
+    "filePath": "templates/documents/hop-dong-dich-vu-cntt.docx",
+    "fileFormat": "docx",
+    "tags": [
+      "Kinh doanh",
+      "Hợp đồng",
+      "Công nghệ",
+      "B2B"
+    ],
+    "version": "2.1.0",
+    "author": "Ban Pháp chế & Kinh doanh",
+    "downloadsCount": 940,
+    "fields": [
+      {
+        "key": "ten_khach_hang",
+        "label": "Tên Đơn vị Khách hàng (Bên B)",
+        "defaultValue": "CÔNG TY TNHH GIẢI PHÁP BÁN LẺ VIỆT",
+        "type": "text"
+      },
+      {
+        "key": "dai_dien_khach_hang",
+        "label": "Đại diện Khách hàng (Họ tên - Chức vụ)",
+        "defaultValue": "Bà Hoàng Thị Mỹ Lan - Giám đốc Điều hành",
+        "type": "text"
+      },
+      {
+        "key": "pham_vi_dich_vu",
+        "label": "Phạm vi cung cấp dịch vụ",
+        "defaultValue": "Thiết kế, xây dựng và tích hợp Hệ thống Thư viện Văn phòng Số",
+        "type": "text"
+      },
+      {
+        "key": "gia_tri_hop_dong",
+        "label": "Tổng giá trị hợp đồng (Chưa VAT)",
+        "defaultValue": "250,000,000 VNĐ",
+        "type": "text"
+      },
+      {
+        "key": "thoi_gian_trien_khai",
+        "label": "Thời gian thực hiện",
+        "defaultValue": "60 ngày làm việc kể từ ngày ký",
+        "type": "text"
+      }
+    ],
+    "contentHtml": "\n<div style=\"font-family: 'Times New Roman', serif; line-height: 1.6; max-width: 800px; margin: 0 auto; color: #111;\">\n  <div style=\"text-align: center; margin-bottom: 20px;\">\n    <h3 style=\"margin: 0; font-size: 13pt; font-weight: bold; text-transform: uppercase;\">CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</h3>\n    <p style=\"margin: 4px 0 0; font-size: 12pt; font-weight: bold;\">Độc lập - Tự do - Hạnh phúc</p>\n    <div style=\"width: 140px; height: 1px; background: #000; margin: 6px auto 16px;\"></div>\n    <h2 style=\"margin: 16px 0 4px; font-size: 16pt; font-weight: bold; text-transform: uppercase; color: #1e3a8a;\">HỢP ĐỒNG CUNG CẤP DỊCH VỤ CÔNG NGHỆ</h2>\n    <p style=\"margin: 0; font-style: italic;\">Số: 2025/HĐDV-TECH</p>\n  </div>\n\n  <p>Hôm nay, ngày ký hợp đồng, các bên gồm có:</p>\n  <p><strong>BÊN CUNG CẤP DỊCH VỤ (BÊN A): CÔNG TY CỔ PHẦN CÔNG NGHỆ OMNIDOC</strong><br/>\n  Địa chỉ: Tòa nhà Innovation, Cầu Giấy, Hà Nội.<br/>\n  Đại diện: Ông Nguyễn Văn An - Tổng Giám đốc.</p>\n\n  <p><strong>BÊN SỬ DỤNG DỊCH VỤ (BÊN B): {{ten_khach_hang}}</strong><br/>\n  Đại diện: {{dai_dien_khach_hang}}</p>\n\n  <h4 style=\"font-size: 12pt; font-weight: bold; margin-top: 16px; border-bottom: 1px solid #ccc; padding-bottom: 4px;\">ĐIỀU 1: PHẠM VI DỊCH VỤ VÀ THỜI GIAN</h4>\n  <p>Bên A đồng ý cung ứng cho Bên B dịch vụ: <strong>{{pham_vi_dich_vu}}</strong>.</p>\n  <p>Thời gian triển khai thực hiện: <strong>{{thoi_gian_trien_khai}}</strong>.</p>\n\n  <h4 style=\"font-size: 12pt; font-weight: bold; margin-top: 16px; border-bottom: 1px solid #ccc; padding-bottom: 4px;\">ĐIỀU 2: GIÁ TRỊ VÀ PHƯƠNG THỨC THANH TOÁN</h4>\n  <p>Tổng giá trị hợp đồng: <strong>{{gia_tri_hop_dong}}</strong> (Hai trăm năm mươi triệu đồng chẵn).</p>\n  <p>Phương thức thanh toán chia làm 02 đợt qua chuyển khoản ngân hàng:</p>\n  <ul>\n    <li>Đợt 1: Tạm ứng 40% giá trị hợp đồng ngay sau khi ký kết.</li>\n    <li>Đợt 2: Thanh toán 60% còn lại trong vòng 07 ngày sau khi ký biên bản nghiệm thu bàn giao hệ thống.</li>\n  </ul>\n\n  <table style=\"width: 100%; margin-top: 40px; text-align: center;\">\n    <tr>\n      <td style=\"width: 50%;\">\n        <strong>ĐẠI DIỆN BÊN A</strong><br/>\n        <em>(Ký, đóng dấu)</em><br/><br/><br/><br/>\n        <strong>Nguyễn Văn An</strong>\n      </td>\n      <td style=\"width: 50%;\">\n        <strong>ĐẠI DIỆN BÊN B</strong><br/>\n        <em>(Ký, đóng dấu)</em><br/><br/><br/><br/>\n        <strong>{{dai_dien_khach_hang}}</strong>\n      </td>\n    </tr>\n  </table>\n</div>\n    ",
+    "createdAt": "2025-04-01T08:00:00Z",
+    "updatedAt": "2025-10-20T14:00:00Z"
+  },
+  {
+    "title": "Mẫu Biên bản Thanh lý Hợp đồng",
+    "category": "Hợp đồng",
+    "description": "Biên bản thanh lý các nghĩa vụ hợp đồng kinh tế theo quy định.",
+    "fileFormat": "docx",
+    "tags": [
+      "Hợp đồng",
+      "Thanh lý"
+    ],
+    "version": "1.0.0",
+    "author": "Người dùng Quản trị",
+    "contentHtml": "<h3>BIÊN BẢN THANH LÝ</h3><p>Các bên đồng ý chấm dứt hợp đồng.</p>",
+    "fields": [],
+    "thumbnailUrl": "/thumbnails/doc-custom.svg",
+    "filePath": "templates/documents/custom-1793356372927.docx",
+    "id": "doc-a21a92eb-e8ad-4303-bf87-c2d888d2553f",
+    "downloadsCount": 1,
+    "createdAt": "2026-10-30T10:32:52.927Z",
+    "updatedAt": "2026-10-30T10:49:49.225Z"
+  },
+  {
+    "title": "Mẫu Biên bản Thanh lý Hợp đồng",
+    "category": "Hợp đồng",
+    "description": "Biên bản thanh lý các nghĩa vụ hợp đồng kinh tế theo quy định.",
+    "fileFormat": "docx",
+    "tags": [
+      "Hợp đồng",
+      "Thanh lý"
+    ],
+    "version": "1.0.0",
+    "author": "Người dùng Quản trị",
+    "contentHtml": "<h3>BIÊN BẢN THANH LÝ</h3><p>Các bên đồng ý chấm dứt hợp đồng.</p>",
+    "fields": [],
+    "thumbnailUrl": "/thumbnails/doc-custom.svg",
+    "filePath": "templates/documents/custom-1793356396509.docx",
+    "id": "doc-8c039db2-cf21-433b-9271-e50e13dd0f58",
+    "downloadsCount": 0,
+    "createdAt": "2026-10-30T10:33:16.509Z",
+    "updatedAt": "2026-10-30T10:33:16.509Z"
+  },
+  {
+    "title": "Mẫu Biên bản Thanh lý Hợp đồng",
+    "category": "Hợp đồng",
+    "description": "Biên bản thanh lý các nghĩa vụ hợp đồng kinh tế theo quy định.",
+    "fileFormat": "docx",
+    "tags": [
+      "Hợp đồng",
+      "Thanh lý"
+    ],
+    "version": "1.0.0",
+    "author": "Người dùng Quản trị",
+    "contentHtml": "<h3>BIÊN BẢN THANH LÝ</h3><p>Các bên đồng ý chấm dứt hợp đồng.</p>",
+    "fields": [],
+    "thumbnailUrl": "/thumbnails/doc-custom.svg",
+    "filePath": "templates/documents/custom-1793356948463.docx",
+    "id": "doc-c47a94ab-67dd-45e4-a0f2-6820203656fa",
+    "downloadsCount": 0,
+    "createdAt": "2026-10-30T10:42:28.463Z",
+    "updatedAt": "2026-10-30T10:42:28.463Z"
+  },
+  {
+    "title": "Mẫu Biên bản Thanh lý Hợp đồng",
+    "category": "Hợp đồng",
+    "description": "Biên bản thanh lý các nghĩa vụ hợp đồng kinh tế theo quy định.",
+    "fileFormat": "docx",
+    "tags": [
+      "Hợp đồng",
+      "Thanh lý"
+    ],
+    "version": "1.0.0",
+    "author": "Người dùng Quản trị",
+    "contentHtml": "<h3>BIÊN BẢN THANH LÝ</h3><p>Các bên đồng ý chấm dứt hợp đồng.</p>",
+    "fields": [],
+    "thumbnailUrl": "/thumbnails/doc-custom.svg",
+    "filePath": "templates/documents/custom-1793356956987.docx",
+    "id": "doc-5cc29bc0-1af4-4ef8-ae57-d4b34b6f2853",
+    "downloadsCount": 0,
+    "createdAt": "2026-10-30T10:42:36.987Z",
+    "updatedAt": "2026-10-30T10:42:36.987Z"
+  },
+  {
+    "title": "Mẫu Biên bản Thanh lý Hợp đồng",
+    "category": "Hợp đồng",
+    "description": "Biên bản thanh lý các nghĩa vụ hợp đồng kinh tế theo quy định.",
+    "fileFormat": "docx",
+    "tags": [
+      "Hợp đồng",
+      "Thanh lý"
+    ],
+    "version": "1.0.0",
+    "author": "Người dùng Quản trị",
+    "contentHtml": "<h3>BIÊN BẢN THANH LÝ</h3><p>Các bên đồng ý chấm dứt hợp đồng.</p>",
+    "fields": [],
+    "thumbnailUrl": "/thumbnails/doc-custom.svg",
+    "filePath": "templates/documents/custom-1793358746332.docx",
+    "id": "doc-7bfd27ff-8f6b-4b6d-886f-c608760a734f",
+    "downloadsCount": 0,
+    "createdAt": "2026-10-30T11:12:26.332Z",
+    "updatedAt": "2026-10-30T11:12:26.332Z"
+  },
+  {
+    "title": "Mẫu Biên bản Thanh lý Hợp đồng",
+    "category": "Hợp đồng",
+    "description": "Biên bản thanh lý các nghĩa vụ hợp đồng kinh tế theo quy định.",
+    "fileFormat": "docx",
+    "tags": [
+      "Hợp đồng",
+      "Thanh lý"
+    ],
+    "version": "1.0.0",
+    "author": "Người dùng Quản trị",
+    "contentHtml": "<h3>BIÊN BẢN THANH LÝ</h3><p>Các bên đồng ý chấm dứt hợp đồng.</p>",
+    "fields": [],
+    "thumbnailUrl": "/thumbnails/doc-custom.svg",
+    "filePath": "templates/documents/custom-1793360280980.docx",
+    "id": "doc-7c3a0341-3373-4b9f-8ba0-d3c9903b94db",
+    "downloadsCount": 0,
+    "createdAt": "2026-10-30T11:38:00.980Z",
+    "updatedAt": "2026-10-30T11:38:00.980Z"
+  }
+]
